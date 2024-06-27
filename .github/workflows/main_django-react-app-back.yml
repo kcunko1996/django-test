@@ -75,6 +75,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'django-react-app-back'
+          app-name: 'boze-molim-te'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6ABE5E5BD9CD495EB442084C195A8F38 }}
