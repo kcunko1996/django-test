@@ -122,3 +122,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Set STATIC_ROOT to an absolute path (example: 'path/to/your/staticfiles')
+STATIC_ROOT = BASE_DIR/'staticFiles'
