@@ -75,6 +75,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'boze-molim-te'
+          app-name: 'karlo-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6ABE5E5BD9CD495EB442084C195A8F38 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_642FCF9C10AC49349B18081FDEE6C088 }}
